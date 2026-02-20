@@ -1,2 +1,3 @@
 #!/bin/bash
 chgrp school hello
+ls -l hello | cut -d ' ' -f4
